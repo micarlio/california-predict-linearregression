@@ -25,6 +25,8 @@ O modelo final, um `RandomForestRegressor` otimizado, foi capaz de prever os pre
 
 O objetivo principal é desenvolver um sistema que estime o valor mediano de uma casa (`median_house_value`) em um determinado distrito da Califórnia com base em um conjunto de características, como localização, idade média dos imóveis e demografia. Este é um problema clássico de regressão.
 
+![Mapa da Califórnia com a distribuição de preços de imóveis](images/analise.png)
+
 ## O Dataset
 
 O conjunto de dados utilizado é o "California Housing Prices", baseado em dados do censo de 1990.
