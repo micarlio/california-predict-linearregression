@@ -47,7 +47,7 @@ O projeto foi estruturado em quatro fases principais:
 
 ### 2. Pré-processamento e Engenharia de Atributos
 
-- **Engenharia de Atributos:** Foram criadas novas características baseadas em rácios (`rooms_per_household`, `bedrooms_per_room`, `population_per_household`) que se mostraram mais informativas do que os atributos originais [cite: 2056-2059].
+- **Engenharia de Atributos:** Foram criadas novas características baseadas em rácios (`rooms_per_household`, `bedrooms_per_room`, `population_per_household`) que se mostraram mais informativas do que os atributos originais.
 - **Pipeline Numérico:** Foi construído um `Pipeline` do Scikit-Learn para tratar as colunas numéricas, realizando duas etapas:
     1. **Imputação:** Preenchimento de valores ausentes com a mediana (`SimpleImputer`).
     2. **Escalonamento:** Padronização de todas as características numéricas (`StandardScaler`).
