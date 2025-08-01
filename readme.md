@@ -88,30 +88,7 @@ Este valor representa o erro de previsão típico do modelo em dados novos, indi
 - **Scikit-Learn:** Para pré-processamento, treinamento de modelos e avaliação.
 - **Jupyter Notebook:** Como ambiente de desenvolvimento.
 
----
-
-##  Como Executar o Projeto
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-    cd nome-do-repositorio
-    ```
-
-2.  **Crie um ambiente virtual (recomendado):**
-    ```bash
-    python3 -m venv env
-    source env/bin/activate
-    ```
-
-3.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Você precisará criar um arquivo `requirements.txt` com as bibliotecas listadas acima)*
-
-4.  **Estrutura de Arquivos:**
-    Certifique-se de que o dataset (`housing.csv`) e as imagens estejam nas pastas corretas, conforme especificado no notebook.
+## Estrutura de Arquivos
     ```
     .
     ├── dataset/
@@ -122,8 +99,3 @@ Este valor representa o erro de previsão típico do modelo em dados novos, indi
     └── README.md
     ```
 
-5.  **Execute o Notebook:**
-    Abra o Jupyter Notebook e execute as células do arquivo `Housing - LinearRegression.ipynb` em ordem.
-    ```bash
-    jupyter notebook
-    ```
